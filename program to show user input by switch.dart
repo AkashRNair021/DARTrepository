@@ -1,8 +1,9 @@
 import 'dart:io';
+
 void main() {
   print("Enter the number");
-  int day=int.parse(stdin.readLineSync()!);
-  
+  int day = int.parse(stdin.readLineSync()!);
+
   switch (day) {
     case 1:
       print("monday");
